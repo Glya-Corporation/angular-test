@@ -1,5 +1,6 @@
 export const environment = {
   production: false,
+  api_rick:'https://rickandmortyapi.com/api',
   firebaseConfig: {
     apiKey: 'AIzaSyASby6qdKOcNgX5z7hg7jZyk7TbGDYq6PQ',
     authDomain: 'crud-angular-firebase-alfa.firebaseapp.com',

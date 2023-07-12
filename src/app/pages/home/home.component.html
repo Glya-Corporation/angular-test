@@ -1,0 +1,26 @@
+
+<!-- <div *ngFor="let character of allCharacters">
+  <app-card-character [character]="character"></app-card-character>
+</div>
+
+<app-show></app-show> -->
+<form [formGroup]="login">
+  <mat-form-field>
+    <mat-label>Input</mat-label>
+    <input matInput formControlName="name">
+  </mat-form-field>
+  <mat-form-field>
+
+    <mat-label >Input2</mat-label>
+    <input matInput formControlName="lastName">
+
+  </mat-form-field>
+  <mat-form-field>
+
+    <mat-label>Input3</mat-label>
+    <input matInput formControlName="email">
+  </mat-form-field>
+  <button (click)="gerForm()">
+    ver
+  </button>
+</form>
